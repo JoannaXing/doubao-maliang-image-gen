@@ -24,6 +24,7 @@
   "openclaw": {
     "emoji": "🎨",
     "category": "image-generation",
+    "homepage": "https://github.com/JoannaXing/doubao-maliang-image-gen",
     "requires": {
       "bins": ["python3"],
       "env": ["VOLCANO_ENGINE_API_KEY"]

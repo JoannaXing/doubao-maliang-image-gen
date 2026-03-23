@@ -8,7 +8,7 @@ metadata:
         "emoji": "🎨",
         "requires": { "bins": ["python3"], "env": ["VOLCANO_ENGINE_API_KEY"] },
         "primaryEnv": "VOLCANO_ENGINE_API_KEY",
-        "homepage": "https://github.com/yourname/doubao-maliang-image-gen",
+        "homepage": "https://github.com/JoannaXing/doubao-maliang-image-gen",
         "license": "MIT"
       },
   }

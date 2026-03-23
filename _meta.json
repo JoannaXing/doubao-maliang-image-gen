@@ -1,0 +1,35 @@
+{
+  "name": "doubao-maliang-image-gen",
+  "version": "1.0.0",
+  "description": "小马良-豆包生图。Generate images with Doubao Seedream via Volcano Engine ARK. Supports Seedream 5.0 and other models.",
+  "author": "Joanna Xing",
+  "license": "MIT",
+  "keywords": [
+    "doubao",
+    "seedream",
+    "volcano",
+    "ark",
+    "maliang",
+    "image-generation",
+    "ai-image",
+    "text-to-image",
+    "豆包",
+    "生图",
+    "马良",
+    "小马良"
+  ],
+  "engines": {
+    "openclaw": ">=0.8.0"
+  },
+  "openclaw": {
+    "emoji": "🎨",
+    "category": "image-generation",
+    "requires": {
+      "bins": ["python3"],
+      "env": ["VOLCANO_ENGINE_API_KEY"]
+    },
+    "primaryEnv": "VOLCANO_ENGINE_API_KEY",
+    "optionalEnv": ["SEEDREAM_MODEL", "SEEDREAM_API_ENDPOINT"],
+    "platforms": ["macos", "linux"]
+  }
+}
